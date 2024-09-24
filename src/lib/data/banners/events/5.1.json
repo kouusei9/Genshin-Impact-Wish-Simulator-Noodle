@@ -1,0 +1,44 @@
+{
+	"patch": 5.1,
+	"data": [
+		{
+			"phase": 1,
+			"banners": {
+				"standardVersion": 4,
+				"events": {
+					"featured": [
+						{
+							"bannerName": "noodles",
+							"character": "mualani",
+							"textOffset": { "l": 49, "b": 14 }
+						}
+					],
+					"rateup": ["kachina", "bennett", "xinyan"]
+				},
+				"weapons": {
+					"bannerName": "noodles",
+					"fatepointsystem": true,
+					"featured": [
+						{ "name": "gold-noodles" },
+						{ "name": "coffee-noodles", "buttonPosition": { "l": 65 } }
+					],
+					"rateup": [
+						"coffee-noodles",
+						"gold-noodles",
+						"meat-noodles",
+						"Porridge-Noodle",
+						"Health-Noodle",
+						"Jelly-Noodle",
+						"Chinese-Herbal-Noodle",
+						"Stewed-Noodle"
+					],
+					"textOffset": {
+						"featured": { "l": 49.5, "t": 71 },
+						"rateup": { "l": 79.5, "b": 18, "w": 17 }
+					}
+				}
+			}
+		}
+	]
+}
+

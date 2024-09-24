@@ -871,6 +871,54 @@
 			"name": "thrilling-tales-of-dragon-slayers",
 			"rarity": 3,
 			"weaponType": "catalyst"
+		},
+		{
+			"name": "coffee-noodles",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "gold-noodles",
+			"weaponType": "sword",
+			"rarity": 5,
+			"limited": true
+		},
+		{
+			"name": "meat-noodles",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "Chinese-Herbal-Noodle",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "Jelly-Noodle",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "Health-Noodle",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "Porridge-Noodle",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "Stewed-Noodle",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
 		}
 	]
 }

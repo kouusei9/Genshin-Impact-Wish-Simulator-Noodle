@@ -40,17 +40,7 @@ const useCustomBanner = async (bannerID) => {
 		const dataIMG = status === 'owned' ? images : imageCDN(hostedImages);
 		customData.set({ ...data, name: character, images: dataIMG });
 		bannerList.set([
-			{
-				type: 'character-event',
-				bannerName,
-				character,
-				rateup,
-				images: dataIMG,
-				vision,
-				charTitle,
-				artPosition,
-				watermark
-			}
+			
 		]);
 
 		activeVersion.set({ patch: 'Custom', phase: bannerID });
@@ -77,7 +67,7 @@ export const initializeBanner = async ({ patch, phase }) => {
 		if (!patch || !phase) return;
 		if (patch.match(/(local|custom)/gi)) return useCustomBanner(phase);
 
-		const list = checkBeginnerBanner() ? [{ type: 'beginner', ...beginner.featured }] : [];
+		const list = checkBeginnerBanner() ? [] : [];
 
 		const { data } = await import(`$lib/data/banners/events/${patch}.json`);
 		const { banners } = data.find((b) => b.phase === phase);
@@ -89,10 +79,10 @@ export const initializeBanner = async ({ patch, phase }) => {
 			rateup: events.rateup,
 			stdver
 		};
-		events.featured.forEach((eventdata) => list.push({ ...eventdata, ...charEventBanner }));
+		// events.featured.forEach((eventdata) => list.push({ ...eventdata, ...charEventBanner }));
 		list.push({ type: 'weapon-event', stdver, ...weapons });
-		if (chronicled) list.push({ type: 'chronicled', stdver, ...chronicled });
-		list.push({ type: 'standard', stdver, ...stdFeatured });
+		// if (chronicled) list.push({ type: 'chronicled', stdver, ...chronicled });
+		// list.push({ type: 'standard', stdver, ...stdFeatured });
 
 		bannerList.set(list);
 		isFatepointSystem.set(!!weapons.fatepointsystem);

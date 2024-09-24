@@ -255,7 +255,7 @@
 	.banner-button,
 	.button-wrapper {
 		text-align: center;
-		display: flex;
+		display: none;
 		justify-content: center;
 		position: relative;
 		z-index: 10;

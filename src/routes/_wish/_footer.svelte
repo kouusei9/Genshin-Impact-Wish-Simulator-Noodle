@@ -263,7 +263,7 @@
 		left: 5%;
 		bottom: 75%;
 		align-items: center;
-		display: flex;
+		display: none;
 		flex-direction: column;
 		pointer-events: none;
 	}
