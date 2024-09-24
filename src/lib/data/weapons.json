@@ -919,6 +919,54 @@
 			"weaponType": "sword",
 			"rarity": 4,
 			"limited": true
+		},
+		{
+			"name": "fork",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "chopsticks",
+			"weaponType": "sword",
+			"rarity": 5,
+			"limited": true
+		},
+		{
+			"name": "empty",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "cho-light-sward",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "chop-sward-blue-light",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "chop-sward",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "spoon",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
+		},
+		{
+			"name": "scissors",
+			"weaponType": "sword",
+			"rarity": 4,
+			"limited": true
 		}
 	]
 }

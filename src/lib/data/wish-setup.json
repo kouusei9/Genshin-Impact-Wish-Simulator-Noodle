@@ -28,10 +28,10 @@
 			"charRate": 25
 		},
 		"weapon-event": {
-			"baseRate5": 1,
+			"baseRate5": 5,
 			"max5": 80,
 			"hard5": 63,
-			"baseRate4": 99,
+			"baseRate4": 95,
 			"max4": 100,
 			"hard4": 9,
 			"winRate": 100,

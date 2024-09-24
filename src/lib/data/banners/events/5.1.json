@@ -9,18 +9,18 @@
 					"featured": [
 						{
 							"bannerName": "noodles",
-							"character": "mualani",
+							"character": "Chinese-Herbal-Noodle",
 							"textOffset": { "l": 49, "b": 14 }
 						}
 					],
-					"rateup": ["kachina", "bennett", "xinyan"]
+					"rateup": ["Chinese-Herbal-Noodle"]
 				},
 				"weapons": {
 					"bannerName": "noodles",
 					"fatepointsystem": true,
 					"featured": [
 						{ "name": "gold-noodles" },
-						{ "name": "coffee-noodles", "buttonPosition": { "l": 65 } }
+						{ "name": "chopsticks", "buttonPosition": { "l": 65 } }
 					],
 					"rateup": [
 						"coffee-noodles",
@@ -30,7 +30,15 @@
 						"Health-Noodle",
 						"Jelly-Noodle",
 						"Chinese-Herbal-Noodle",
-						"Stewed-Noodle"
+						"Stewed-Noodle",
+						"fork",
+						"chopsticks",
+						"empty",
+						"spoon",
+						"chop-sward",
+						"chop-sward-blue-light",
+						"cho-light-sward",
+						"scissors"
 					],
 					"textOffset": {
 						"featured": { "l": 49.5, "t": 71 },
